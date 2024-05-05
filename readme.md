@@ -9,7 +9,7 @@
 - download items of their choice.
   
 Admin:
--	view uploaded items by clubs/commitees .
+-	view uploaded items sorted by clubs/commitees .
 - reject and approve items of their choice.
 -	recieve notifications about folders added and requests to restore items.
 -	download items of their choice.
@@ -18,5 +18,11 @@ End User:
 -	has view access to all items uploaded by committee/clubs and are approved by admin.
 -	download items of their choice.
 
-Screenshots of the project:
+Some Screenshots of the project:
+![alt text](image-1.png)
+- Committee side:
+![alt text](<Screenshot 2024-05-05 165124.png>) ![alt text](<Screenshot 2024-05-05 164731.png>) ![alt text](<Screenshot 2024-05-05 164701.png>)
+- Admin side :
+![alt text](<Screenshot 2024-05-05 165226.png>)
+- User side: 
 ![alt text](image.png)
