@@ -52,6 +52,17 @@ if (isset($_GET['event_id'])) {
                 <?php echo $subfolderName; ?>
             </title>
             <!-- Include Bootstrap CSS -->
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
             <!-- Custom CSS -->
             <link rel="stylesheet" href="../style.css">
@@ -106,8 +117,7 @@ if (isset($_GET['event_id'])) {
 
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <a class="navbar-brand" href="#">
-                    <img src="images/kjsit-logo.svg" alt="Logo">
-                </a>
+                <img src="images/yo.png" alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -281,9 +291,20 @@ $numVideos = $row['num_videos'];
                 </div>
             </div>
 
-            <div class="footer">
-                <img src="images/kjsit-logo.svg" alt="Logo">
+           
+<div class="footer">
+        <div class="container">
+
+            <div class="social-links">
+                <a href="https://github.com/yourgithub"><i class="fa fa-github"></i></a>
+                <a href="https://linkedin.com/in/yourlinkedin"><i class="fa fa-linkedin"></i></a>
             </div>
+
+        </div>
+        <div class="text-center">
+            <p>&copy; 2024 Anoushka Vyas. All rights reserved.</p>
+        </div>
+    </div>
 
             <div class="modal fade" id="slideshowModal" tabindex="-1" role="dialog" aria-labelledby="slideshowModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">

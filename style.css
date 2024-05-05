@@ -96,8 +96,7 @@ body {
 }
 
 .navbar-dark .navbar-brand img {
-  max-height: 40px;
-  /* Set the maximum height for the logo to match navbar height */
+  max-height: 20px;
   width: auto;
   object-fit: cover;
 }
@@ -178,3 +177,7 @@ body {
 }
 
 
+.logo img {
+  width: 100px; /* Adjust the width as needed */
+  height: auto; /* This maintains the aspect ratio */
+}

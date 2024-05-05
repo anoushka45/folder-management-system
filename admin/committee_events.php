@@ -102,7 +102,9 @@ if (isset($_GET['committee_id'])) {
             <!-- Navbar -->
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <a class="navbar-brand" href="#">
-<p>logo</p>                </a>
+                <img src="images/yo.png" alt="logo">
+
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -175,14 +177,14 @@ if (isset($_GET['committee_id'])) {
             <div class="footer">
         <div class="container">
 
-            <div class="social-links">
-                <a href="https://github.com/yourgithub"><i class="fa fa-github"></i></a>
-                <a href="https://linkedin.com/in/yourlinkedin"><i class="fa fa-linkedin"></i></a>
-            </div>
+            
 
         </div>
         <div class="text-center">
             <p>&copy; 2024 Anoushka Vyas. All rights reserved.</p>
+        </div>
+        <div class="logo">
+            <img src="images/yo.png" alt="logo">
         </div>
     </div>
 

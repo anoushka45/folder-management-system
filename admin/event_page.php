@@ -147,6 +147,12 @@ if (isset($_GET['event_id'])) {
                 .folder-card {
                     padding: 2px;
                 }
+
+                .navbar-dark .navbar-brand img {
+                    max-height: 20px;
+                    width: auto;
+                    object-fit: cover;
+                }
             </style>
         </head>
 
@@ -156,7 +162,7 @@ if (isset($_GET['event_id'])) {
 
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <a class="navbar-brand" href="#">
-                    <p>logo</p>
+                    <img src="images/yo.png" alt="logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -378,15 +384,15 @@ if (isset($_GET['event_id'])) {
             <div class="footer">
                 <div class="container">
 
-                    <div class="social-links">
-                        <a href="https://github.com/yourgithub"><i class="fa fa-github"></i></a>
-                        <a href="https://linkedin.com/in/yourlinkedin"><i class="fa fa-linkedin"></i></a>
-                    </div>
+                   
 
                 </div>
                 <div class="text-center">
                     <p>&copy; 2024 Anoushka Vyas. All rights reserved.</p>
                 </div>
+                <div class="logo">
+            <img src="images/yo.png" alt="logo">
+        </div>
             </div>
 
             <!-- Slideshow Modal -->
