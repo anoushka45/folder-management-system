@@ -19,10 +19,12 @@ End User:
 -	download items of their choice.
 
 Some Screenshots of the project:
-![alt text](image-1.png)
-- Committee side:
-![alt text](<Screenshot 2024-05-05 165124.png>) ![alt text](<Screenshot 2024-05-05 164731.png>) ![alt text](<Screenshot 2024-05-05 164701.png>)
-- Admin side :
-![alt text](<Screenshot 2024-05-05 165226.png>)
-- User side: 
-![alt text](image.png)
+![alt text](screenshots/image-1.png)
+Committee side:
+![alt text](<screenshots/Screenshot 2024-05-05 164701.png>)![alt text](<screenshots/Screenshot 2024-05-05 164731.png>)![alt text](<screenshots/Screenshot 2024-05-05 165124.png>)
+
+Admin side:
+![alt text](<screenshots/Screenshot 2024-05-05 165226.png>)
+
+User side:
+![alt text](<screenshots/Screenshot 2024-05-05 165311.png>)
