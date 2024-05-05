@@ -19,7 +19,7 @@ End User:
 -	download items of their choice.
 
 Some Screenshots of the project:
-![alt text](screenshots/image-1.png)
+![alt text](screenshots/image.png)
 Committee side:
 ![alt text](<screenshots/Screenshot 2024-05-05 164701.png>)![alt text](<screenshots/Screenshot 2024-05-05 164731.png>)![alt text](<screenshots/Screenshot 2024-05-05 165124.png>)
 
