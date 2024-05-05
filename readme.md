@@ -17,3 +17,6 @@ Admin:
 End User:
 -	has view access to all items uploaded by committee/clubs and are approved by admin.
 -	download items of their choice.
+
+Screenshots of the project:
+![alt text](image.png)

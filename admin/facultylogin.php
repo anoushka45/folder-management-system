@@ -17,6 +17,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <style>
+        .navbar-dark .navbar-brand img {
+  max-height: 20px;
+  width: auto;
+  object-fit: cover;
+}
         body {
             background: #f1f1f1;
             margin: 0;
@@ -168,7 +173,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="#">
-            <p>logo</p>
+        <img src="images/yo.png" alt="logo">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -225,6 +230,7 @@
         </div>
         <div class="text-center">
             <p>&copy; 2024 Anoushka Vyas. All rights reserved.</p>
+            
         </div>    </footer>
 
 
